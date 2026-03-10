@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+
+# uv / Python version
+.python-version
+pyproject.toml
+uv.lock
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML model cache (sentence-transformers downloads here)
+.cache/
+
+# Environment variables
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
